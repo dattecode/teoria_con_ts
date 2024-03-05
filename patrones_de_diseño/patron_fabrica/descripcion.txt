@@ -1,0 +1,8 @@
+el patron de diseño patron_fabrica nos permite separar los valores por dependencias, en los cuales
+nos conectara oh retornara el valor adeacuado a nuestra dependencia,
+en este ejemplo podemos ver como la app se conecta a un controlador que lo desiga a una clase diferente
+dependiendo del tipo de usuario que es, el proceso se evaluea con una interfaz dando un parametro
+de lo minimo que tiene que tener la clase para ser 
+devuelta(lo creamos como interfaz para poder modificar aun mas el contenido segun lo necesario)
+entonces el flujo seria algo como lo siguiente:
+ App => controlador_fabrica => usuarios => retorna el tipo designado
